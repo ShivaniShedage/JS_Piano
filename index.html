@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400;500&display=swap" rel="stylesheet">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Piano</h1>
+        <ul>
+            <li><a class="nav-link nav-link-fade-up">Home</a></li>
+            <li><a class="nav-link nav-link-fade-up" href="#">About</a></li>
+            <li><a class="nav-link nav-link-fade-up" href="#piano">Play</a></li>
+        </ul>
+    </nav>
+
+    <div class="bg">
+        <div class="hometext"> 
+            <h2><span>Hi!</span> want you to play piano ?</h2>
+            <button id="play">Play</button>
+        </div>
+        <img src="pablo-1046.png" alt="pianist">
+    </div>
+    
+    <section class="BgPiano" id="piano">
+       <div class="pianoKeys">
+            <div data-note="C" class="key White"></div>
+            <div data-note="Db" class="key Black"></div>
+            <div data-note="D" class="key White"></div>
+            <div data-note="Eb" class="key Black"></div>
+            <div data-note="E" class="key White"></div>
+            <div data-note="F" class="key White"></div>
+            <div data-note="Gb" class="key Black"></div>
+            <div data-note="G" class="key White"></div>
+            <div data-note="Ab" class="key Black"></div>
+            <div data-note="A" class="key White"></div>
+            <div data-note="Bb" class="key Black"></div>
+            <div data-note="B" class="key White"></div>
+        </div>
+            <audio id="C" src="./notes/notes_C.mp3"></audio>   
+            <audio id="Db" src="./notes/notes_Db.mp3"></audio> 
+            <audio id="D" src="./notes/notes_D.mp3"></audio> 
+            <audio id="Eb" src="./notes/notes_Eb.mp3"></audio> 
+            <audio id="E" src="./notes/notes_E.mp3"></audio> 
+            <audio id="F" src="./notes/notes_F.mp3"></audio> 
+            <audio id="Gb" src="./notes/notes_Gb.mp3"></audio> 
+            <audio id="G" src="./notes/notes_G.mp3"></audio> 
+            <audio id="Ab" src="./notes/notes_Ab.mp3"></audio> 
+            <audio id="A" src="./notes/notes_A.mp3"></audio> 
+            <audio id="Bb" src="./notes/notes_Bb.mp3"></audio> 
+            <audio id="B" src="./notes/notes_B.mp3"></audio> 
+    
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
